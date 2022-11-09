@@ -1,0 +1,17 @@
+x =float(input("Enter First Number: "))
+y = float(input("Enter Second Number: "))
+print("Enter which operation would you like to perform ?")
+m = input("Enter any of these char for specific operation +,-,*,/: ")
+result = 0
+if m == '+':
+    result = x + y
+elif m == '-':
+    result = x-y
+elif m == '*':
+    result = x*y
+elif m == '/':
+    result = x/y
+else:
+    print("Input character is not recognized!")
+
+print(x,m,y, ":", result)
